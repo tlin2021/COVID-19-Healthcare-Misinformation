@@ -25,7 +25,8 @@ SMOTE improves 18.9% relatively on Recall
 Recall: The proportion of actual positives was identified correctly.
 
 ## Model performance:
-Gradient Boosting Machines with grid search yields the best performance (Recall: 0.705).
+- Random Forest, Gradient Boosting Machines with grid search models were fit and tested.
+- Gradient Boosting Machines with grid search yields the best performance (Recall: 0.705).
 
 ## Future works:
 The dataset also contains users' social engagement (Tweets and replies) about such news. But only IDs are provided due to Twitter's privacy policies. 
