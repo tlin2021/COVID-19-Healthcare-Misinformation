@@ -27,6 +27,8 @@ Recall: The proportion of actual positives was identified correctly.
 ## Model performance:
 - Random Forest, Gradient Boosting Machines with grid search models were fit and tested.
 - Gradient Boosting Machines with grid search yields the best performance (Recall: 0.705).
+- ROC Curve for the best model \
+![ROC Curve](/images/download.png)
 
 ## Future works:
 The dataset also contains users' social engagement (Tweets and replies) about such news. But only IDs are provided due to Twitter's privacy policies. 
