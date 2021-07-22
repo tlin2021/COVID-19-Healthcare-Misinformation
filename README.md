@@ -6,6 +6,7 @@ As the coronavirus spreads, misinformation related to COVID-19 also spreads. Suc
 ## Dataset
 - 5,975 confirmed fake and true news articles with ground truth label
 - 15.95% news are fake
+- Link to the dataset: https://github.com/cuilimeng/CoAID
 
 ## Modeling process
 - Combine files and create labels
@@ -26,3 +27,6 @@ Recall: The proportion of actual positives was identified correctly.
 ## Model performance:
 Gradient Boosting Machines with grid search yields the best performance (Recall: 0.705).
 
+## Future works:
+The dataset also contains users' social engagement (Tweets and replies) about such news. But only IDs are provided due to Twitter's privacy policies. 
+Future work will be scapping the cotent of the tweets and replies and see if the information can be fit into the model and improve the performance.
